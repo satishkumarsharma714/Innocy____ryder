@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    width: 500px;
+    height: 410px;
+    margin: auto;
+    padding-top: 25px;
+    background-color: #980000;
+}
+.main{
+    width: 90%;
+    height: 95%;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    color: #707070;
+    font-size: 20px;
+}
+label{
+   padding: 30px 22px;
+}
+.box input{
+    width: 90%;
+    height: 30px;
+    border-color: #ff1919;
+    margin-top: 25px;
+    margin-left:22px;
+}
+.button{
+    float: right;
+    margin: 30px 30px;
+}
+.button input[type=submit]{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(185, 185, 2);
+}

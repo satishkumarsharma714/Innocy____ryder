@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    width: 750px;
+    height: 650px;
+    margin: auto;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/jsr.png);
+    background-size: cover;
+}
+.main{
+   width: 460px;
+   height: 560px;
+   background: rgba(179, 0, 255,0.7);
+   margin: auto;
+}
+.box{
+    margin:30px 30px;
+    padding-left: 30px;
+}
+.box input{
+    width: 92%;
+    height: 30px;
+    border-radius: 2px;
+    color: rgb(157, 157, 157);
+    font-weight: bold;
+}
+.box1{
+   display: grid;
+   justify-content: center;
+}
+.box1 button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    background: #fa3f26;
+}

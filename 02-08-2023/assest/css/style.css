@@ -1,0 +1,201 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    background-color: #020272;
+}
+.hbox1{
+    width: 30%;
+    height: 40px;
+    margin-left: 150px;
+    float: left;
+}
+.hbox2{
+    width: 60%;
+    height: 40px;
+    float: right;
+}
+.hbox2 span{
+    float: right;
+    margin-right:150px;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background: url("../img/banner.jpg");
+    background-size: cover;
+}
+.bannerbox{
+    width: 60%;
+    height:650px;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.contact{
+    width: 360px;
+    height: 490px;
+    float: right;
+    margin: 70px 150px 0px 0px ;
+    border-radius: 15px;
+    background-color: #03037db3;;
+}
+.contact h1{
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 30px;
+}
+.spbox1 input{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+.spbox2 input{
+    width: 160px;
+    height: 40px;
+    float:right;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+.spbox3 input{
+    width: 330px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0px 10px 15px;
+    border-radius: 5px;
+}
+.spbox4 input{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+.spbox5 input{
+    width: 160px;
+    height: 40px;
+    float:right;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+.spbox6{
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    margin: 10px 0px 0px 15px;
+    padding-top: 95px;
+    border-radius: 5px;
+}
+.spbox6 input{
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 7px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(0, 221, 255);
+}
+.contanier{
+    width: 100%;
+    height: 400px;
+}
+.contanier1{
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin: 40px 0px 40px 150px;
+}
+.contanier2{
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin: 40px 0px 40px 140px;
+}
+.contanier3{
+    width: 320px;
+    height: 320px;
+    float: right;
+    margin: 40px 150px 40px 0px;
+}
+.main{
+    width: 100%;
+    height: 220px;
+    color: white;
+    background: #140062;
+}
+.main h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.main p{
+    margin: 2px 200px 5px 200px;
+}
+.learn{
+    width: 250px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    margin:20px auto;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.first{
+    width: 100%;
+    height: 351px;
+    display: flex;
+}
+.firstm1{
+    width: 50%;
+    height: 350px;
+    margin-left: 150px;
+}
+.firstm1 img{
+    width:100%;
+    height: 350px;
+
+}
+.firstm2{
+    width: 50%;
+    height: 350px;
+    margin-right: 150px;
+}
+.second{
+    width: 100%;
+    height: 351px;
+    display: flex; 
+}
+.sec1{
+    width: 50%;
+    height: 350px;
+    margin-left: 150px;
+}
+.sec2{
+    width: 50%;
+    height: 350px;
+    margin-right: 150px;
+}
+.sec2 img{
+    width:100%;
+    height: 350px;
+
+}
+footer{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #020272;
+    text-align: center;
+    line-height: 40px;
+}

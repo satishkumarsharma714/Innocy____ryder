@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="./assest/css/style.css">
+    </head>
+    <body>
+        <div class="meeting">
+            <h2>Shedule Meeting</h2><br>
+            <form action="" method="get">
+                <label for="topic">Topic</label><br>
+                <input class="top" type="text" name="topic" id=""><br>
+                <label for="attendees">Attendees</label><br>
+                <input class="top" type="text" name="attendees" id="" placeholder="Email or name"><br>
+                <div class="box1">
+                    <input type="checkbox" name="" id="mch">
+                    <span>Enable Continuous Meeting Chat</span>
+                </div>
+                <p>
+                    Added attendees will have access to the Meeting Group Chat before and after the meeting.
+                </p><br><hr style="color: red;"><br><br>
+                <table>
+                    <tr>
+                        <td><label for="date&time">Date & Time</label></td>
+                    </tr>
+                    <tr class="date-time">
+                        <td>
+                            <select name="date" id="date"><option value="date">20/09/2023</option></select>
+                        </td>
+                        <td>
+                            <select name="time" id="time"><option value="time">06:45</option></select>
+                        </td>
+                        <td>to</td>
+                        <td>
+                            <select name="time" id="time"><option value="time">07:30</option></select>
+                        </td>
+                        <td>
+                            <select name="date" id="date"><option value="date">20/09/2023</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="tzone">Time Zone:</label></td>
+                        <!-- <td></td> -->
+                        <td>
+                            <select name="country" id="">
+                                <option value="india">India</option>
+                                <option value="U.S.A">U.S.A</option>
+                                <option value="pak">Pakistan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id="">Recurring meeting</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

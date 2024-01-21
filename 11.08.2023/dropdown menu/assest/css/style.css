@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    padding: 0px 30px;
+    display: inline-block;
+}
+.nav>ul>li>a:hover{
+    background-color: red;
+}
+.nav ul li>ul{
+    display: none;
+}
+.nav ul li:hover ul{
+    display: grid;
+}
+.nav ul li ul li{
+    margin-left: 37%;
+}
+.nav ul li>ul li a{
+    background-color: red;
+}
+.sub1 a:hover{
+    background-color: blue;
+}
